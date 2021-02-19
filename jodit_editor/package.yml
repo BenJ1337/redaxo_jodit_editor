@@ -8,10 +8,14 @@ page:
     icon: rex-icon fa-edit
     perm: admin
     subpages:
-        doc:
-            title: 'translate:main'
+        uebersicht:
+            title: 'translate:page-uebersicht'
+        handbuch:
+            title: 'translate:page-handbuch'
+        konfiguration:
+            title: 'translate:page-konfiguration'
 
 requires:
-    redaxo: '^5.0'
-    php:
-        version: '^7.1'
+  php:
+    version: '>=7.0'
+  redaxo: '>=5.0.0'
